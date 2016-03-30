@@ -14,8 +14,7 @@
   .profile-title,
   .profile-title a,
   .note-title,
-  .marked-title,
-  .marked-title a {
+  .marked-title {
     color: #818181;
   }
   
@@ -29,10 +28,16 @@
   }
 
   
-  .container-item {
+  .container-item,
+  .notification-list {
     color: #818181;
     background-color: #333;
     border: 1px solid #666; 
+  }
+  
+  .notification-item:hover {
+    color: #818181;
+    background-color: #383838;
   }
   
   .bg-image-item {
