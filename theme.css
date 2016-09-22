@@ -36,11 +36,6 @@
     border: 1px solid #666; 
   }
   
-  .notification-item:hover {
-    color: #818181;
-    background-color: #383838;
-  }
-  
   .bg-image-item {
     background-color: #818181;
   }
@@ -372,5 +367,24 @@
     border-color: #666;
     color: #818181;
     background-color: #444;
+  }
+}
+
+@-moz-document domain("intra.42.fr") {
+  
+  .white-background {
+    color: #818181;
+  }
+  
+  button, input, optgroup, select, textarea {
+    background-color: #333;
+  }
+  
+  .select-tag-filtre {
+    border: 0px;
+  }
+  
+  .show-right {
+    border-top: 1px solid #818181;
   }
 }
